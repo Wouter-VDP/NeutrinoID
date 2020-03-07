@@ -1,2 +1,4 @@
 *.root
 *.pckl
+.vscode/
+./ipynb_checkpoints/
