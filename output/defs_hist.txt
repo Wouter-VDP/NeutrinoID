@@ -1,0 +1,27 @@
+Run1 C1:
+data_bnb_mcc9.1_v08_00_00_25_reco2_C1_hist_high_lifetime () () () (pot)
+data_extbnb_mcc9.1_v08_00_00_25_reco2_C1_hist_high_lifetime () () () (pot)
+
+Run2 D2:
+-
+-
+
+Run3 G1:
+data_extbnb_mcc9.1_v08_00_00_25_reco2_G1_hist_high_lifetime
+data_bnb_mcc9.1_v08_00_00_25_reco2_G1_hist_high_lifetime
+
+
+
+
+
+
+<pre>wvdp@uboonegpvm02:/uboone/app/users/wvdp/Tools/NuFilter_Feb2020/run1&gt;/uboone/app/users/zarko/getDataInfo.py -v2 --file-list run_1_on_hist.txt 
+Read 23553 lines from run_1_on_hist.txt
+           EXT         Gate2        E1DCNT        tor860        tor875   E1DCNT_wcut   tor860_wcut   tor875_wcut
+    14031397.0    15951795.0    15984323.0     6.676e+19     6.667e+19    14693544.0     6.606e+19     6.598e+19
+
+wvdp@uboonegpvm02:/uboone/app/users/wvdp/Tools/NuFilter_Feb2020/run1>/uboone/app/users/zarko/getDataInfo.py -v2 --file-list run_1_off_hist.txt 
+Read 12024 lines from run_1_off_hist.txt
+           EXT         Gate2        E1DCNT        tor860        tor875   E1DCNT_wcut   tor860_wcut   tor875_wcut
+    15448348.0    17829825.0    17871938.0      7.47e+19     7.461e+19    16430461.0     7.391e+19     7.381e+19
+

@@ -1,0 +1,52 @@
+--- RUN 1 --- 
+### Common optical filter ###
+Passing percentage on : 100.0%
+Passing percentage off : 100.0%
+(on-off)/(BNB+dirt) = 0.930+/-0.012
+
+### Has SimpleBeamFlash ###
+Passing percentage on : 93.5%
+Passing percentage off : 92.0%
+(on-off)/(BNB+dirt) = 1.049+/-0.013
+
+### Flash in 1.68us window ###
+Passing percentage on : 74.1%
+Passing percentage off : 67.7%
+(on-off)/(BNB+dirt) = 1.071+/-0.013
+
+### passes precuts ###
+Passing percentage on : 25.1%
+Passing percentage off : 16.6%
+(on-off)/(BNB+dirt) = 1.132+/-0.015
+
+### foundATargetSlice ###
+Passing percentage on : 22.6%
+Passing percentage off : 13.5%
+(on-off)/(BNB+dirt) = 1.111+/-0.014
+
+
+--- RUN 2 --- 
+### Common optical filter ###
+Passing percentage on : 100.0%
+Passing percentage off : 100.0%
+(on-off)/(BNB+dirt) = 0.691+/-0.004
+
+### Has SimpleBeamFlash ###
+Passing percentage on : 94.5%
+Passing percentage off : 93.2%
+(on-off)/(BNB+dirt) = 0.795+/-0.005
+
+### Flash in 1.68us window ###
+Passing percentage on : 75.8%
+Passing percentage off : 69.8%
+(on-off)/(BNB+dirt) = 0.857+/-0.005
+
+### passes precuts ###
+Passing percentage on : 25.4%
+Passing percentage off : 17.5%
+(on-off)/(BNB+dirt) = 0.955+/-0.005
+
+### foundATargetSlice ###
+Passing percentage on : 23.1%
+Passing percentage off : 14.7%
+(on-off)/(BNB+dirt) = 0.962+/-0.005

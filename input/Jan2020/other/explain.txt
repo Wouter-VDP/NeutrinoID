@@ -1,0 +1,30 @@
+MC Defs:
+https://microboone-exp.fnal.gov/at_work/AnalysisTools/mc/mcc9.0/details_june2019_v16.html
+Reco2Hist
+
+
+Run1:
+prodgenie_bnb_nu_uboone_overlay_mcc9.1_v08_00_00_26_filter_run1_reco2_hist (3k)
+prodgenie_bnb_intrinsice_nue_uboone_overlay_mcc9.1_v08_00_00_26_run1_reco2_hist (3k)
+prodgenie_bnb_dirt_overlay_mcc9.1_v08_00_00_26_run1_reco2_hist (2k)
+
+Run1 data:
+data_bnb_mcc9.1_v08_00_00_25_reco2_C1_hist_5e19 
+data_extbnb_mcc9.1_v08_00_00_25_reco2_C1_hist_high_lifetime (10k)
+
+
+Create limited files:
+samweb create-definition wvdp_bnb_nu_26_3k_reco2hist "defname:prodgenie_bnb_nu_uboone_overlay_mcc9.1_v08_00_00_26_filter_run1_reco2_hist with limit 3000"
+samweb create-definition wvdp_bnb_nue_26_3k_reco2hist "defname:prodgenie_bnb_intrinsice_nue_uboone_overlay_mcc9.1_v08_00_00_26_run1_reco2_hist with limit 3000"
+samweb create-definition wvdp_bnb_dirt_26_2k_reco2hist "defname:prodgenie_bnb_dirt_overlay_mcc9.1_v08_00_00_26_run1_reco2_hist with limit 2000"
+samweb create-definition wvdp_bnb_off_c1_26_10k_reco2hist "defname:data_extbnb_mcc9.1_v08_00_00_25_reco2_C1_hist_high_lifetime with limit 10000"
+
+
+Run1:
+wvdp_bnb_nu_26_3k_reco2hist                           -> 117.5k ps (done) -> hadd ok
+wvdp_bnb_nue_26_3k_reco2hist                          -> 117.2k ps (done) -> hadd ok
+wvdp_bnb_dirt_26_2k_reco2hist                         ->  73.7k ps (done) -> hadd ok
+wvdp_bnb_off_c1_26_10k_reco2hist                      -> 168.3k ps (done) -> hadd
+data_bnb_mcc9.1_v08_00_00_25_reco2_C1_hist_5e19       -> 182.0k ps (done) -> hadd
+
+Q: What does filters mean? you do not need these files.S
