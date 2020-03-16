@@ -204,9 +204,9 @@ class Plotter:
         title_left="",
         title_right="",
         query="run",  # default query selects all events
-        ax=None,
+        ax=[],
     ):
-        create_plot = ax == None
+        create_plot = len(ax)==0
         if create_plot:
             fig, ax = plt.subplots(
                 ncols=1,
@@ -344,9 +344,9 @@ class Plotter:
         title_left="",
         title_right="",
         query="run",  # default query selects all events
-        ax=None,
+        ax=[],
     ):
-        create_plot = ax == None
+        create_plot = len(ax)==0
         if create_plot:
             fig, ax = plt.subplots(
                 ncols=1,
